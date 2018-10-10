@@ -1,0 +1,26 @@
+{
+  "name": "fmag",
+  "version": "1.0.0",
+  "description": "Simulação de movimento uma partícula carregada em um campo magnético",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js | tap-difflet",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /"
+  },
+  "keywords": [
+    "simulação",
+    "simulacao",
+    "canvas",
+    "js",
+    "javascript",
+    "física",
+    "cinética",
+    "eletrostática"
+  ],
+  "author": "Leonardo Riether <leonardoalves8217@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.9.1"
+  }
+}
