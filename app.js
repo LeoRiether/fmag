@@ -56,11 +56,14 @@ particles.push(new Particle(
   new V(0, -100.0, 0)
 ));
 
-window.addEventListener('click', (e) => {
+let addParticle = (e) => {
   particles.push(new Particle(
     1, 
     new V(e.clientX, e.clientY, 0), 
     new V(0, -100.0, 0)
   ));
   
-})
+};
+
+window.addEventListener('click', addParticle);
+window.addEventListener('touchend', addParticle);
